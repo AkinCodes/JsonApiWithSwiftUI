@@ -11,6 +11,7 @@
 		184C99A026C80371007440A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C999F26C80371007440A0 /* ContentView.swift */; };
 		184C99A226C80372007440A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184C99A126C80372007440A0 /* Assets.xcassets */; };
 		184C99A526C80372007440A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184C99A426C80372007440A0 /* Preview Assets.xcassets */; };
+		184C99AE26C803F5007440A0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C99AD26C803F5007440A0 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		184C99A126C80372007440A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		184C99A426C80372007440A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		184C99A626C80372007440A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184C99AD26C803F5007440A0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				184C999D26C80371007440A0 /* JsonApiWithSwiftUIApp.swift */,
 				184C999F26C80371007440A0 /* ContentView.swift */,
+				184C99AD26C803F5007440A0 /* Model.swift */,
 				184C99A126C80372007440A0 /* Assets.xcassets */,
 				184C99A626C80372007440A0 /* Info.plist */,
 				184C99A326C80372007440A0 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184C99AE26C803F5007440A0 /* Model.swift in Sources */,
 				184C99A026C80371007440A0 /* ContentView.swift in Sources */,
 				184C999E26C80371007440A0 /* JsonApiWithSwiftUIApp.swift in Sources */,
 			);

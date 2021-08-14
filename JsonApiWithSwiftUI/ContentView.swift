@@ -8,9 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
+  @StateObject var akin = Akin()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+            NavigationView {
+                    
+                List {
+                    ForEach(akin.items, id: \.self) { item in
+                        Text(item.webTitle)
+                            .font(.largeTitle)
+                            .bold()
+                            .padding()
+                       
+                    }
+                    
+                    
+                    
+                }.onAppear(perform: {
+                    akin.getData()
+                })
+                
+                .navigationTitle("NEWS COVERAGE")
+                
+                
+                
+                
+            }
+            
+           
+        
+        
     }
 }
 
