@@ -1,2 +1,2 @@
 # JsonApiWithSwiftUI
-A project listing the various world news headlines from a major news API. 
+This is a project I have created that lists the various news headlines from a major news API. 
